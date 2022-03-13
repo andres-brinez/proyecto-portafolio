@@ -1,0 +1,14 @@
+body {
+    background-color:#f5f7fa ;
+    padding:40px;
+    
+  }
+
+.container  {
+display: flex;
+display: flex;
+width:1200px;
+background-color:#fff ;
+box-shadow: 10px 10px 20px 0px hsla(0,0%,0%,0.1) ; /* sombra */
+
+}

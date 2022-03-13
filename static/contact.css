@@ -1,0 +1,25 @@
+
+.contacts-title {
+  font-size: 22px;
+  line-height:1.091;
+  
+}
+
+.contacts-item {
+  font-size: 14px;
+  line-height:1.714;
+  
+}
+
+.contacts-link {
+
+    text-decoration: none;
+    opacity: 0.6;
+    color: #fff;
+  }
+
+
+.contacts-link:hover{
+    color: #ff6b08;
+    opacity: 1;
+}

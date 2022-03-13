@@ -1,0 +1,25 @@
+.left-side {
+    width: 370px;
+    min-height: 370px;
+    background-color:#1e2939 ;
+    color: #fff;
+  
+  }
+
+.photo {
+    width: 370px;
+}
+
+.photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;
+
+}
+
+
+
+.contacts,
+.skills {
+  padding-left: 40px;
+}

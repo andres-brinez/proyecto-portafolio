@@ -1,0 +1,31 @@
+
+
+.skills-title {
+    font-size:22px ;
+    line-height:1.091 ;
+
+}
+
+.skills-item {
+ font-size:14px ;
+ line-height:1.714 ;
+ list-style: none;
+ padding-left: 0%;
+ 
+}
+
+
+.skills-item::before {
+    content: '\2022';
+    color: #ff6b08;
+    margin-right: 8px;
+    font-size: 18px;
+    
+   }
+
+.skills-list {
+
+list-style: none;
+padding-left: 0;
+
+}

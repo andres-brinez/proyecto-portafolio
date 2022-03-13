@@ -1,0 +1,20 @@
+
+.right-side {
+    padding-top:68px;
+    padding-right:200px;
+    padding-bottom:68px;
+    padding-left:80px;
+    width: 830px;
+    
+    
+  }
+  
+.bio,
+.projects,
+.jobs,
+.education {
+margin-bottom:60px;
+}
+
+
+ 
