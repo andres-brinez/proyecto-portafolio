@@ -1,0 +1,35 @@
+/* section bio */
+.bio-title {
+    font-size: 45px;
+    line-height: 2;
+    margin-bottom: 20px;
+
+}
+
+.bio-title, .bio-occupation{
+    
+    color: #2a2a2a;
+}
+
+.bio-occupation{
+   
+    margin-bottom: 27px;
+
+}
+
+.bio-about {
+   
+    color: #595959;
+
+}
+
+
+
+.bio-about, .bio-occupation {
+    font-size: 14px;
+    line-height: 1.714;
+    
+
+}
+
+
