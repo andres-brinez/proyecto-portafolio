@@ -8,14 +8,24 @@
 .contacts-item {
   font-size: 14px;
   line-height:1.714;
+
   
 }
+
+.contacts-list {
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+
 
 .contacts-link {
 
     text-decoration: none;
     opacity: 0.6;
     color: #fff;
+    
   }
 
 
