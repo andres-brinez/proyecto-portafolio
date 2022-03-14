@@ -1,2 +1,2 @@
 # proyecto-portafolio
-proyecto de  crear  un portafolio 
+Proyecto creado del MARATÓN SEMANAL SOBRE LOS FUNDAMENTOS DEL DISEÑO HTML/CSS de GoIT 
