@@ -1,0 +1,71 @@
+
+/* barra de  navegacion ***** */
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 36px  0 ;
+    background-color: #F5F5F5; 
+   
+    
+}
+.navegacion-banner{
+    display: flex;
+}
+
+
+.navegacion-menu a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 500px;
+    color: #464646;
+}
+
+.contacto, .navegacion-mi-nombre{
+    font-Weight: bold;  
+    color: #464646; 
+}
+
+.navegacion-link:hover{
+    
+    text-decoration: underline;
+}
+
+
+/* responsive */
+
+@media(max-width:399px){
+    .navegacion-menu a.contacto  {
+       
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:437px){
+    .navegacion-banner img{
+        display: none;
+    }
+
+    .contacto {
+        font-Weight: 400;  
+        
+    }
+}
+
+@media(min-width: 500px){
+  
+    .navegacion-banner img{
+        display: flex;
+    }
+            
+}
+@media(max-width: 947px){
+    .ocultar-elemento{
+        display: none;
+    }
+  
+}
+
+

@@ -1,0 +1,52 @@
+#footer{
+    padding: 40px  10px 30px 10px;
+    
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    color: #464646;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.contenido p {
+    padding-top: 5px;
+    padding-left: 2px;
+    font-size: 25px;
+}
+
+footer img{
+    border-radius: 40px;
+    width: 30px;
+}
+
+.año{
+    text-align: center;
+    color: #464646;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 19px;
+}
+
+@media(max-width: 768px){
+
+    #footer{
+        padding: 40px  50px 30px 30px;
+        
+    }
+
+    .contenido p , .año {
+        
+        font-size: 16px;
+        
+        
+    }
+
+
+
+    footer img{
+        display: none;
+    }
+}

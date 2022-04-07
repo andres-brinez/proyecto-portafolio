@@ -1,2 +1,2 @@
-# proyecto-portafolio
-Proyecto creado del MARATÓN SEMANAL SOBRE LOS FUNDAMENTOS DEL DISEÑO HTML/CSS de GoIT 
+# portafolio
+portafolio creado  par Challenge #1 de   Oracle ONE  en la  ruta  de formacion de  Front-end.

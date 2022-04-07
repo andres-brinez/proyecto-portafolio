@@ -1,0 +1,50 @@
+
+/* sobre  mi */
+
+#sobre-mi{
+    color: #464646;
+    background-color: #EAF2FD;
+    padding: 90px  100px ;
+   
+}
+
+
+.sobre-mi-titulo{
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 20px;
+     
+    
+}
+.sobre-mi-texto{
+    padding-right: 30%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+
+
+}
+
+/* responsive */
+@media(max-width: 1000px){
+    /* seccion sobre  mi */
+
+    #sobre-mi{
+        padding: 30px  10px;
+    }
+    
+    .sobre-mi-titulo{
+        
+        font-size: 32px;
+        padding: 20px 0 ;
+    }
+    .sobre-mi-texto{
+        padding-right: 0%;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+
+    }
+
+    
+}

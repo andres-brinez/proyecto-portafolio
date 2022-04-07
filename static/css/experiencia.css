@@ -1,0 +1,173 @@
+#section-experiencia {
+    background-color: #F5F5F5;
+    padding: 100px 100px;
+
+}
+
+.experiencia-titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: #464646;
+    padding-bottom: 50px;
+}
+
+.caja-experiencia {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    height: 100%;
+
+}
+
+.img-left {
+
+    order: 2;
+}
+
+.caja-img img {
+    height: 350px;
+    width: 780px;
+   
+}
+
+.contenido-caja { 
+    padding-top: 150px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.caja-nombre {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.caja-descripcion {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: 1px solid #2A7AE4;
+    font-size: 16px;
+    color: #2A7AE4;
+
+
+}
+
+
+
+a.btn {
+    text-decoration: none;
+
+}
+
+.btn:hover {
+
+    cursor: pointer;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: 1px solid #2A7AE4;
+    font-size: 16px;
+
+}
+
+.caja-img img.img-alta {
+    height: 700px !important;
+}
+
+.contenido-caja.alto {
+    padding-top: 300px;
+}
+
+
+
+@media(max-width:600px) {
+
+    .contenido-caja.alto,
+    .img-alta {
+        display: none;
+    }
+}
+
+@media(min-width:601px) {
+
+
+    .contenido-caja,
+    .contenido-caja.alto {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    #section-experiencia {
+
+        padding: 50px 0px 150px 30px;
+
+
+    }
+
+    .caja-experiencia {
+        display: block;
+        margin-bottom: 30px;
+
+    }
+
+
+    .caja-img {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .caja-img img {
+        width: 80%;
+        height: 100%;
+
+
+
+    }
+
+    .contenido-caja {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .contenido-caja h3,
+    .contenido-caja p,
+    .contenido-caja a {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .caja-descripcion {
+
+        padding-bottom: 10px;
+
+    }
+
+
+    .btn.celular {
+        display: inline-block;
+
+    }
+
+
+
+}
